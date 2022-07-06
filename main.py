@@ -83,6 +83,7 @@ def function2x_main(line: list):
             if i == len(line)-1:
                 if maxlength/2 < length:
                     print(i)
+                    break
                 else:
                     function2x_arithmetic_mean(index_of_final_length, maxlength)
         else:
